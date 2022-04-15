@@ -12,14 +12,26 @@ at-least 5 using Drone class as described in drone_server.py.
 ### From Web-Application Side:
 Create two dashboard pages- 
 #### (Dashboard1)
-* This dashboard has facility to add drone or remove (adding via TCP socket)
-* On click the online Drones( connected) new dashboard (dashboard2)
-* A Google map or my other map that shows online drones on it
+* This dashboard has facility to add or remove drone (via TCP socket)
+* On click the online Drones( connected) ,a new dashboard (dashboard2) should open.
+* A Google map or any other map that shows online drones on it
 ![demo_example](./Web.png "Fleet page")
 
 #### (Dashboard2):
 * This dashboard will show all the data in an interactive manner as described using provided helper frontend library
    and templates or if you wish you can simply display in any way but in proper manner.
+
+![demo_example](./dashboard2.png "Fleet page")
+
+You can see two circles are shown which will show altitude and attitude(roll, pitch, yaw) data in the following manner:-
+
+## Alt
+
+![demo_example](./templates/img/altimeter_background.svg "Fleet page")
+
+## Attitude
+
+![demo_example](./templates/img/attitude_pitch.svg "Fleet page")
 
 
 Understand the Helper Codes and templates
