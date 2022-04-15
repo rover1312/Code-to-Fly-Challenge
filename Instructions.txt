@@ -1,0 +1,21 @@
+--------------
+Instructions:
+--------------
+
+    1. Create a web application which can connect multiple Drones (acting as a client) using TCP Socket.
+    2. Use the provided API to create multiple instances provided by the API
+       at-least 5 using Drone class as described in drone_server.py.
+
+
+# From Web-Application Side:
+    Create two dashboard pages-
+    1. As described in [Drone_page.png] (Dashboard1)
+        - This dashboard has facility to add drone or remove (adding via TCP socket)
+        - On click the online Drones( connected) new dashboard (dashboard2)
+        - A Google map or my other map that shows online drones on it
+
+    2. As described in [Fleet_page.jpg] (Dashboard2):
+        - This dashboard will show all the data in an interactive manner as described using provided helper frontend library
+          and templates with proper explanation.
+
+
