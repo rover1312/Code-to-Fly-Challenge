@@ -33,6 +33,8 @@ You can see two circles are shown which will show altitude and attitude(roll, pi
 
 ![demo_example](./templates/img/attitude_pitch.svg "Fleet page")
 
+For the reference and helper libraries go to [/templates](./templates/)
+
 
 Understand the Helper Codes and templates
 -------------------
