@@ -10,7 +10,7 @@ About this API:
 
 
 ### JSON DATA:
-```json
+```js
         data['mode']    = mode of flying (String)
         data['roll']    = roll angle (degrees)
         data['pitch']   = pitch angle (degrees)

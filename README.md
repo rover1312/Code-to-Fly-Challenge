@@ -1,4 +1,7 @@
- Problem Statement
+ 
+![demo_example](./Group%2052.webp "Fleet page")
+
+Problem Statement
 ===================
 * Create a web application which can connect multiple Drones (acting as a client) using TCP Socket.
 * Use the provided API to create multiple instances provided by the API
@@ -130,7 +133,7 @@ if __name__ == '__main__':
 
 For understanding how data is processed and accessed following two ways are shown:-
 - In node Js
-```json lines
+```js
 // Dummy code snippet to connect server and fetch data
 var net = require('net');
 
