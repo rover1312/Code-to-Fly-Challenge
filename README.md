@@ -74,8 +74,8 @@ class Network:
             
             
 class Drone(Network):
-    def __init__(self, ip, port):
-        self.sitl = dronekit_sitl.start_default()
+    def __init__(self, ip, port, lat, lon):
+        self.sitl = dronekit_sitl.start_default(lat, lon)
         self.connection_string = self.sitl.connection_string()
         print(bcolors.OKGREEN + bcolors.BOLD + ">>>> Connecting with the UAV <<<" + bcolors.ENDC)
         self.vehicle = connect(self.connection_string, wait_ready=True)
